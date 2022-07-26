@@ -1,0 +1,47 @@
+metrics:
+  enabled: true
+podMonitor:
+  enabled: true
+master:
+  nodeSelector:
+    app: spark
+worker:
+  nodeSelector:
+    app: spark
+  extraVolumes:
+  - hostPath:
+      path: /ndata
+      type: ""
+    name: vol1
+  - hostPath:
+      path: /ndata2
+      type: ""
+    name: vol2
+  - hostPath:
+      path: /home/omnious/workspace
+      type: ""
+    name: workspace
+  - hostPath:
+      path: /home/omnious/data
+      type: ""
+    name: local
+  - hostPath:
+      path: aws-credential
+      type: ""
+    name: aws-credential
+  extraVolumeMounts: 
+  - mountPath: /data/shared
+    name: vol1
+  - mountPath: /data/shared2
+    name: vol2
+  - mountPath: /home/omnious/workspace
+    name: workspace
+  - mountPath: /data/local
+    name: local
+  - mountPath: /home/omnious/.aws 
+    name: aws-credential
+service:
+  type: NodePort
+  nodePorts:
+    http: 30380
+    cluster: 30370
