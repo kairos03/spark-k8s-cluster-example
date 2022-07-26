@@ -6,6 +6,13 @@ master:
   nodeSelector:
     app: spark
 worker:
+  replicaCount: 2
+  coreLimit: 32
+  autoscaling:
+    enabled: true
+    targetCPU: 90
+    targetMemory: 90
+    maxReplicas: 5
   nodeSelector:
     app: spark
   extraVolumes:
@@ -44,4 +51,3 @@ service:
   type: NodePort
   nodePorts:
     http: 30380
-    cluster: 30370
