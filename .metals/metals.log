@@ -1,0 +1,239 @@
+2022.07.27 09:45:34 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/kairos03/Develop/spark-cluster/.metals/lsp.trace.json or /Users/kairos03/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.07.27 09:45:35 INFO  logging to file /Users/kairos03/Develop/spark-cluster/.metals/metals.log
+2022.07.27 09:45:35 INFO  Started: Metals version 0.11.7 in workspace '/Users/kairos03/Develop/spark-cluster' for client Visual Studio Code 1.69.1.
+2022.07.27 09:45:39 INFO  time: initialize in 4.21s
+2022.07.27 09:45:39 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.07.27 09:45:41 WARN  Build server is not auto-connectable.
+2022.07.27 09:45:41 WARN  no build tool detected in workspace '/Users/kairos03/Develop/spark-cluster'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.07.27 09:46:56 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-pi/src/main/scala/example/Hello.scala
+2022.07.27 09:47:18 INFO  no build target found for /Users/kairos03/Develop/spark-cluster/example/test-pi/src/main/scala/example/Hello.scala. Using presentation compiler with project's scala-library version: 3.1.3
+2022.07.27 09:47:19 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-pi/build.sbt
+7월 27, 2022 9:47:19 오전 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 5
+7월 27, 2022 9:47:19 오전 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 10
+7월 27, 2022 9:47:19 오전 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 11
+7월 27, 2022 9:47:19 오전 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 13
+7월 27, 2022 9:47:19 오전 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 14
+7월 27, 2022 9:47:19 오전 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 17
+7월 27, 2022 9:47:19 오전 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 7
+7월 27, 2022 9:47:19 오전 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 6
+7월 27, 2022 9:47:19 오전 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 19
+7월 27, 2022 9:47:19 오전 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 23
+7월 27, 2022 9:47:19 오전 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 18
+2022.07.27 09:47:21 INFO  time: code lens generation in 25s
+2022.07.27 09:47:21 INFO  time: code lens generation in 1.7s
+2022.07.27 09:47:21 INFO  time: code lens generation in 2.05s
+2022.07.27 09:47:21 INFO  time: code lens generation in 1.16s
+2022.07.27 09:47:21 INFO  time: code lens generation in 2.06s
+2022.07.27 09:47:27 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-pi/build.sbt
+2022.07.27 09:47:51 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-pi/build.sbt
+2022.07.27 09:48:01 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/build.sbt
+2022.07.27 09:48:28 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/build.sbt
+2022.07.27 09:48:36 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/src/main/scala/example/Hello.scala
+2022.07.27 09:49:12 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/build.sbt
+2022.07.27 09:49:33 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/project/Dependencies.scala
+7월 27, 2022 9:49:53 오전 scala.meta.internal.pc.CompilerAccess handleError
+심각: Toplevel definition root is defined in
+  /Users/kairos03/Develop/spark-cluster/example/test-pi/build.sbt
+and also in
+  /Users/kairos03/Develop/spark-cluster/example/test-spark/build.sbt
+One of these files should be removed from the classpath.
+dotty.tools.dotc.core.TypeError: Toplevel definition root is defined in
+  /Users/kairos03/Develop/spark-cluster/example/test-pi/build.sbt
+and also in
+  /Users/kairos03/Develop/spark-cluster/example/test-spark/build.sbt
+One of these files should be removed from the classpath.
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.dropStale$1(SymDenotations.scala:2431)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.recur$5(SymDenotations.scala:2395)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.computeMembersNamed(SymDenotations.scala:2451)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.membersNamed(SymDenotations.scala:2010)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.findMember(SymDenotations.scala:2061)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:683)
+	at dotty.tools.dotc.core.Types$Type.goThis$1(Types.scala:808)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:700)
+	at dotty.tools.dotc.core.Types$Type.findMember(Types.scala:876)
+	at dotty.tools.dotc.core.Types$Type.memberBasedOnFlags(Types.scala:666)
+	at dotty.tools.dotc.core.Types$Type.member(Types.scala:650)
+	at dotty.tools.dotc.core.Types$Type.allMembers$$anonfun$1(Types.scala:1017)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:15)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:10)
+	at dotty.tools.dotc.core.Types$Type.memberDenots$$anonfun$1(Types.scala:922)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.BitmapIndexedSetNode.foreach(HashSet.scala:937)
+	at scala.collection.immutable.HashSet.foreach(HashSet.scala:944)
+	at dotty.tools.dotc.core.Types$Type.memberDenots(Types.scala:922)
+	at dotty.tools.dotc.core.Types$Type.allMembers(Types.scala:1017)
+	at scala.meta.internal.pc.IndexedContext$.accesibleMembers$1(IndexedContext.scala:133)
+	at scala.meta.internal.pc.IndexedContext$.scala$meta$internal$pc$IndexedContext$$$extractNames(IndexedContext.scala:188)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:83)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:82)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:82)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:82)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:82)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:56)
+
+2022.07.27 09:49:55 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/project/Dependencies.scala
+7월 27, 2022 9:50:02 오전 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 179
+2022.07.27 09:50:10 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/project/Dependencies.scala
+2022.07.27 09:50:46 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/src/main/scala/example/Hello.scala
+2022.07.27 09:50:48 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/src/main/scala/example/Hello.scala
+2022.07.27 09:50:57 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/src/main/scala/example/Hello.scala
+7월 27, 2022 9:51:08 오전 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+심각: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 14 is not a valid line number, allowed [0..11]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:66)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:65)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:65)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1652)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1651)
+	... 15 more
+
+2022.07.27 09:51:09 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/src/main/scala/example/Hello.scala
+7월 27, 2022 9:51:09 오전 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+심각: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 14 is not a valid line number, allowed [0..11]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:66)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:65)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:65)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1652)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1651)
+	... 15 more
+
+2022.07.27 09:51:14 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/src/main/scala/example/Hello.scala
+2022.07.27 10:15:20 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/project/Dependencies.scala
+2022.07.27 10:16:55 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/build.sbt
+2022.07.27 10:17:16 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/build.sbt
+2022.07.27 10:17:36 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/project/assembly.sbt
+2022.07.27 10:17:38 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/project/assembly.sbt
+2022.07.27 10:17:46 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/project/assembly.sbt
+2022.07.27 10:17:48 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/project/assembly.sbt
+2022.07.27 10:17:59 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/project/assembly.sbt
+2022.07.27 10:19:36 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/project/plugins.sbt
+2022.07.27 10:20:58 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/project/Dependencies.scala
+2022.07.27 10:21:19 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/project/Dependencies.scala
+2022.07.27 10:21:58 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/build.sbt
+2022.07.27 10:22:53 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/project/plugins.sbt
+2022.07.27 10:23:14 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/build.sbt
+2022.07.27 10:24:34 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/project/plugins.sbt
+2022.07.27 10:24:36 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/project/plugins.sbt
+2022.07.27 10:24:42 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/project/plugins.sbt
+2022.07.27 10:34:53 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/build.sbt
+2022.07.27 10:35:03 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/build.sbt
+2022.07.27 10:35:16 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/build.sbt
+2022.07.27 10:35:19 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/project/Dependencies.scala
+2022.07.27 10:36:00 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/build.sbt
+2022.07.27 10:36:38 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/build.sbt
+2022.07.27 10:36:43 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/build.sbt
+2022.07.27 10:37:22 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/project/Dependencies.scala
+2022.07.27 10:37:34 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/project/Dependencies.scala
+2022.07.27 10:37:41 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/project/Dependencies.scala
+2022.07.27 10:40:43 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/src/test/scala/example/HelloSpec.scala
+2022.07.27 11:08:11 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/src/test/scala/example/HelloSpec.scala
+2022.07.27 11:22:47 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/src/main/scala/com/omnious/example/Hello.scala
+7월 27, 2022 11:22:47 오전 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 1147
+2022.07.27 11:22:53 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/src/main/scala/com/omnious/example/Hello.scala
+2022.07.27 11:22:54 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/src/main/scala/com/omnious/example/Hello.scala
+2022.07.27 11:23:37 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/src/main/scala/com/omnious/example/Hello.scala
+2022.07.27 11:24:02 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/src/test/scala/com/omnious/example/HelloSpec.scala
+2022.07.27 11:24:22 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/build.sbt
+7월 27, 2022 11:24:58 오전 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 1231
+2022.07.27 11:25:02 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/project/Dependencies.scala
+2022.07.27 11:25:17 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/project/Dependencies.scala
+2022.07.27 11:25:28 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/project/Dependencies.scala
+2022.07.27 11:26:21 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/src/main/scala/com/omnious/example/Hello.scala
+2022.07.27 11:26:27 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/build.sbt
+2022.07.27 11:26:48 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/project/plugins.sbt
+2022.07.27 11:27:57 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/build.sbt
+2022.07.27 11:28:23 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/project/plugins.sbt
+2022.07.27 11:28:41 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/project/plugins.sbt
+2022.07.27 11:28:47 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/src/main/scala/com/omnious/example/Hello.scala
+2022.07.27 11:28:50 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/src/test/scala/com/omnious/example/HelloSpec.scala
+2022.07.27 11:29:04 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/build.sbt
+2022.07.27 11:30:22 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/src/main/scala/com/omnious/example/Hello.scala
+2022.07.27 11:30:31 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/src/main/scala/com/omnious/example/Hello.scala
+2022.07.27 11:30:36 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/src/main/scala/com/omnious/example/Hello.scala
+2022.07.27 11:30:50 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/src/test/scala/com/omnious/example/HelloSpec.scala
+2022.07.27 11:30:57 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/src/test/scala/com/omnious/example/HelloSpec.scala
+2022.07.27 12:24:18 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/src/main/scala/com/omnious/example/Hello.scala
+2022.07.27 12:24:30 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/src/main/scala/com/omnious/example/Hello.scala
+2022.07.27 12:24:32 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/src/main/scala/com/omnious/example/Hello.scala
+2022.07.27 12:26:28 WARN  no build target for: /Users/kairos03/Develop/spark-cluster/example/test-spark/src/main/scala/com/omnious/example/Hello.scala

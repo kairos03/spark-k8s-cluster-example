@@ -5,16 +5,24 @@ podMonitor:
 master:
   nodeSelector:
     app: spark
+  configOptions:
+    -Dspark.ui.reverseProxy=true
+    -Dspark.ui.reverseProxyUrl=http://192.168.108.90:30380
 worker:
   replicaCount: 2
-  coreLimit: 32
+  coreLimit: 16
   autoscaling:
     enabled: true
     targetCPU: 90
     targetMemory: 90
     maxReplicas: 5
+  containerPorts:
+    cluster: 7077
   nodeSelector:
     app: spark
+  configOptions:
+    -Dspark.ui.reverseProxy=true
+    -Dspark.ui.reverseProxyUrl=http://192.168.108.90:30380
   extraVolumes:
   - hostPath:
       path: /ndata
@@ -51,3 +59,4 @@ service:
   type: NodePort
   nodePorts:
     http: 30380
+    cluster: 30370
